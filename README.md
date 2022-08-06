@@ -1,5 +1,11 @@
 # PCensor
-private content censor base on nsfwjs
+private content censor base on nsfwjs. 
+
+rating result:  1 = everyone, 2 = teen, 3 = adult
+
+current rating rule is: if top className is Porn,Sexy,Hentai when Porn > 0.4 or Sexy > 0.55 or Hentai > 0.55 then rating = 3,other is 2. if top className  is Drawing or Neutral then rating = 1
+
+you can change it if you want
 
 # required
 
