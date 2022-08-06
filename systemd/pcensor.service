@@ -1,0 +1,11 @@
+[Unit]
+Description=pcensor
+After=network.target remote-fs.target nss-lookup.target
+[Service]
+Type=forking
+ExecStart=/home/pcensor/start.sh
+#ExecReload=/
+#ExecStop=/
+PrivateTmp=true
+[Install]
+WantedBy=multi-user.target
