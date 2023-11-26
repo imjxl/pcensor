@@ -44,7 +44,7 @@ you can change it if you want
    ./autogen.sh
 
    #please install gcc if failure
-   apt-get -y install autoconf gcc libxslt-dev xsltproc docbook-xsl
+   apt-get -y install autoconf gcc libxslt-dev xsltproc docbook-xsl make
 
    make dist
    make install
